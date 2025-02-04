@@ -1,5 +1,11 @@
 # Hyprland Configurations
 
+## Requirements
+1. copr:copr.fedorainfracloud.org:solopasha:hyprl
+- hyprland
+- hyprpaper
+
+
 ## What's this?
 - waypaper?
 - hyprlock?
@@ -11,7 +17,6 @@
 - wl-paste (wyłączenie middle click copy)?
 - hyprpolkitagent?
 - swaync (system notifications)?
-- hyprpaper?
 - hypridle?
 - beebeep?
 - ranger (file manager)?
@@ -29,13 +34,15 @@
 - zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster`
 - manualna instalacja Hyprland (nie z repozytorium COPR)
 - naprawienie pikselizacji aplikacji X11, np. Chromium
+- wyeksportowanie skali ekranu do osobnej zmiennej?
+- zaimportowanie source do hyprpaper?
 
 
 ## Settings
 
 ### monitors.conf
 
-- Podstawowe działajace ustawienie:
+- Podstawowe działajace ustawienie (monitor = name, resolution, position, scale):
 `monitor=,preferred,auto,auto`
 
 
