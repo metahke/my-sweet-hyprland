@@ -5,10 +5,10 @@
 - hyprland
 - hyprpaper
 - hyprlock
+- hyprsunset
 
 
 ## What's this?
-- hyprlock?
 - hyprshot?
 - window notifications? (np. dla okna specjalnego)
 - playerctl?
