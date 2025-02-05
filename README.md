@@ -6,6 +6,7 @@
 - hyprpaper
 - hyprlock
 - hyprsunset
+- hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)
 
 
 ## What's this?
@@ -16,7 +17,6 @@
 - xwaylandvideobridge?
 - hyprpolkitagent?
 - swaync (system notifications)?
-- hypridle?
 - beebeep?
 - ranger (file manager)?
 - ładniejsze menu programów
@@ -37,7 +37,7 @@
 - zaimportowanie source do hyprpaper?
 - czasami terminal się blokuje, gdy go nie używam przez jakiś czas? - do weryfikacji;
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
-- zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?);
+- zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle
 
 
 ## Settings
