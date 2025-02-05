@@ -39,7 +39,7 @@
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
 - zamiana wofi na coś innego;
-- zamiana waybar na coś innego;
+- zamiana waybar na coś innego (np. zamiast paska, to coś dostępnego w special workspace?; poprzez komendę);
 
 
 ## Settings
