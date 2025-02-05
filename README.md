@@ -4,17 +4,16 @@
 1. copr:copr.fedorainfracloud.org:solopasha:hyprl
 - hyprland
 - hyprpaper
+- hyprlock
 
 
 ## What's this?
-- waypaper?
 - hyprlock?
 - hyprshot?
 - window notifications? (np. dla okna specjalnego)
 - playerctl?
 - nm-applet?
 - xwaylandvideobridge?
-- wl-paste (wyłączenie middle click copy)?
 - hyprpolkitagent?
 - swaync (system notifications)?
 - hypridle?
@@ -36,9 +35,14 @@
 - naprawienie pikselizacji aplikacji X11, np. Chromium
 - wyeksportowanie skali ekranu do osobnej zmiennej?
 - zaimportowanie source do hyprpaper?
+- czasami terminal się blokuje, gdy go nie używam przez jakiś czas? - do weryfikacji;
+- dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
+- zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?);
 
 
 ## Settings
+
+- Możliwe jest wyłączenie middle-click paste;
 
 ### monitors.conf
 
