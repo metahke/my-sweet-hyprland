@@ -12,6 +12,7 @@
 - btop
 - wofi
 - waybar
+- grim & slurp & wl-copy
 
 
 ## What's this?
@@ -45,7 +46,10 @@
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
 - zamiana wofi na coś innego;
 - zamiana waybar na coś innego (np. zamiast paska, to coś dostępnego w special workspace?; poprzez komendę);
-- zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring
+- zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring;
+- Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?*;
+- dokończenie ep.9 z info. dot. baterii w Hyprland (?);
+- rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
 
 
 ## Settings
