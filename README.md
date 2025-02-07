@@ -6,13 +6,14 @@
 - hyprpaper
 - hyprlock
 - hyprsunset
-- hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)s
+- hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)
 
 ## Apps
 - btop
 - wofi
 - waybar
 - grim & slurp & wl-copy
+- bluetui
 
 
 ## What's this?
@@ -24,10 +25,11 @@
 - hyprpolkitagent?
 - swaync (system notifications)?
 - beebeep?
-- ranger (file manager)?
+- ranger / nnn (file manager)?
 - ładniejsze menu programów
 - uwsm?
-- pavucontrol?
+- pavucontrol (a jakaś nowoczesna alternatywa TUI?)?
+- nmtui?
 
 
 ## Upgrades
@@ -50,6 +52,9 @@
 - Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?*;
 - dokończenie ep.9 z info. dot. baterii w Hyprland (?);
 - rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
+- kontrolki głośności i jasności ekranu;
+- opcja "cofnięcia" obecnego okna, która pokazuje wszystkie otwarte workspaces;
+- lista wszystkich aplikacji zainstalowanych?
 
 
 ## Settings
