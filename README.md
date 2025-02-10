@@ -24,7 +24,7 @@
 - hyprpolkitagent?
 - swaync (system notifications)?
 - beebeep?
-- ranger / nnn (file manager)?
+- nnn / ranger / superfile / yazi (file manager)?
 - ładniejsze menu programów
 - uwsm?
 - pavucontrol (a jakaś nowoczesna alternatywa TUI?)?
@@ -35,7 +35,7 @@
 
 - `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box
 - dlaczego mogę instalować aplikacje bez podawania hasła?
-- zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster`
+- zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster` (mam już do tego bindy: MOD + SHIFT + STRZAŁKI)
 - manualna instalacja Hyprland (nie z repozytorium COPR)
 - wyeksportowanie skali ekranu do osobnej zmiennej?
 - zaimportowanie source do hyprpaper?
@@ -45,7 +45,7 @@
 - zamiana wofi na coś innego;
 - zamiana waybar na coś innego (np. zamiast paska, to coś dostępnego w special workspace?; poprzez komendę);
 - zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring;
-- Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?*;
+- Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?* -> `binds {movefocus_cycles_fullscreen = 0}` -> chodzi o możliwość przełączania między oknami fullscreen;
 - dokończenie ep.9 z info. dot. baterii w Hyprland (?);
 - rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
 - kontrolki głośności i jasności ekranu;
