@@ -37,7 +37,6 @@
 - dlaczego mogę instalować aplikacje bez podawania hasła?
 - zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster`
 - manualna instalacja Hyprland (nie z repozytorium COPR)
-- naprawienie pikselizacji aplikacji X11, np. Chromium
 - wyeksportowanie skali ekranu do osobnej zmiennej?
 - zaimportowanie source do hyprpaper?
 - czasami terminal się blokuje, gdy go nie używam przez jakiś czas? - do weryfikacji;
