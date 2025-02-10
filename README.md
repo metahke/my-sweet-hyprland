@@ -53,6 +53,7 @@
 - opcja "cofnięcia" obecnego okna, która pokazuje wszystkie otwarte workspaces;
 - lista wszystkich aplikacji zainstalowanych?
 - uruchamianie Zed nie działa;
+- dodanie ostrzeżenia o stanie baterii;
 
 
 ## Settings
