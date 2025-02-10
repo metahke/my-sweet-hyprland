@@ -17,7 +17,6 @@
 
 
 ## What's this?
-- hyprshot?
 - window notifications? (np. dla okna specjalnego)
 - playerctl?
 - nm-applet?
@@ -34,8 +33,6 @@
 
 ## Upgrades
 
-- SilverBullet (WebApps; not working)
-- SilverBullet autostart (currently with .bashrc file)
 - `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box
 - dlaczego mogę instalować aplikacje bez podawania hasła?
 - zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster`
@@ -55,6 +52,7 @@
 - kontrolki głośności i jasności ekranu;
 - opcja "cofnięcia" obecnego okna, która pokazuje wszystkie otwarte workspaces;
 - lista wszystkich aplikacji zainstalowanych?
+- uruchamianie Zed nie działa;
 
 
 ## Settings
