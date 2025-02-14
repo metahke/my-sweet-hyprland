@@ -52,3 +52,4 @@
 - uruchamianie Zed nie działa;
 - dodanie ostrzeżenia o stanie baterii;
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
+- problemy w łączeniu poprzez SSH?
