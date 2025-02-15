@@ -1,5 +1,5 @@
 #window {
-	border: 1px solid --wofi-color0;
+	border: 2px solid --wofi-color2;
 	background-color: --wofi-color1;
 	border-radius: 7px;
 	font-size: 14px;
@@ -12,10 +12,11 @@
 #input {
 	border: 3px solid --wofi-color0;
 	border-radius: 7px;
-	margin: 2px;
+	margin: 10px 10px 15px 10px;
 	background-color: --wofi-color0;
 	color: --wofi-color1;
 	box-shadow: none;
+	color: black
 }
 
 #input:focus {
@@ -27,17 +28,20 @@
 
 #entry {
 	color: --wofi-color0;
-	margin: 3px;
+	margin: 3px 10px;
 	border-radius: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #entry:selected {
-	color: --wofi-color1;
-	background-color: --wofi-color0;
+	color: --wofi-color0;
+	background-color: --wofi-color2;
 }
 
 #text:selected {
-	color: --wofi-color1;
+	color: --wofi-color0;
+	font-weight: bold;
 }
 
 #img {

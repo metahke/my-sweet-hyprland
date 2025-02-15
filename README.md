@@ -58,3 +58,4 @@
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
 - jakaś linia fiolet na dole ekranu i po prawej stronie, hm?
 - poprawienie działania overview;
+- zamiana primary na 5e548e?
