@@ -7,6 +7,8 @@
 - hyprlock
 - hyprsunset
 - hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)
+- hyprpm
+- Hyprspace (domyślny hyprexpo jest afunkcjonalny)
 
 ## Apps
 - btop
@@ -47,9 +49,12 @@
 - dokończenie ep.9 z info. dot. baterii w Hyprland (?);
 - rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
 - kontrolki głośności i jasności ekranu;
-- opcja "cofnięcia" obecnego okna, która pokazuje wszystkie otwarte workspaces;
 - lista wszystkich aplikacji zainstalowanych?
 - uruchamianie Zed nie działa;
-- dodanie ostrzeżenia o stanie baterii;
+- dodanie ostrzeżenia o stanie baterii (chyba Hyprspace czy inny plugin dodał mi jakieś notyfikacje);
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
-- problemy w łączeniu poprzez SSH?
+- problemy w łączeniu poprzez SSH w kitty?
+- disable infinite workspaces scroll
+- by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
+- jakaś linia fiolet na dole ekranu i po prawej stronie, hm?
+- poprawienie działania overview;

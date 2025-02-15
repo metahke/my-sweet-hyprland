@@ -2,6 +2,10 @@
 
 - Możliwe jest wyłączenie middle-click paste;
 
+## hyprpm
+`hyprpm update;
+sudo dnf install hyprland-devel cpio cmake make meson ninja glm-devel`
+
 ## monitors.conf
 
 - Podstawowe działajace ustawienie (monitor = name, resolution, position, scale):
