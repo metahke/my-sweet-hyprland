@@ -8,12 +8,11 @@
 - hyprsunset
 - hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)
 - hyprpm
-- Hyprspace (domyślny hyprexpo jest afunkcjonalny)
+- Hyprspace
 
 ## Apps
 - btop
 - wofi
-- waybar
 - grim & slurp & wl-copy
 - bluetui
 
