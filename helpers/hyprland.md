@@ -54,11 +54,6 @@ sudo dnf install hyprland-devel cpio cmake make meson ninja glm-devel`
 `workspace = SPECIAL, name:SCRATCH`
 
 
-## variables.conf
-
-Umożliwia przechowywanie zmiennych, np. ścieżki do jakiejś aplikacji, której możemy używać wewnątrz plików konfiguracyjnych.
-
-
 ## aesthetics.conf
 
 - Umożliwia dostosowywanie rozmiaru okien (general):
