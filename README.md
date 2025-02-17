@@ -11,6 +11,7 @@
 - Hyprspace
 
 ## Apps
+- foot (kitty?)
 - btop
 - wofi
 - grim & slurp & wl-copy
@@ -30,14 +31,12 @@
 - pavucontrol (a jakaś nowoczesna alternatywa TUI?)?
 - nmtui?
 
-
 ## Upgrades
 - `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box
 - dlaczego mogę instalować aplikacje bez podawania hasła?
 - zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster` (mam już do tego bindy: MOD + SHIFT + STRZAŁKI)
 - manualna instalacja Hyprland (nie z repozytorium COPR)
 - wyeksportowanie skali ekranu do osobnej zmiennej?
-- zaimportowanie source do hyprpaper?
 - czasami terminal się blokuje, gdy go nie używam przez jakiś czas? - do weryfikacji;
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
@@ -57,4 +56,5 @@
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
 - jakaś linia fiolet na dole ekranu i po prawej stronie, hm?
 - poprawienie działania overview;
-- zamiana primary na 5e548e?
+- migracja z kitty na foot (+ konfiguracja i kolory i wygląd i skalowanie)
+- ograniczenie maksymalnego dźwięku
