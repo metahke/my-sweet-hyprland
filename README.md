@@ -16,17 +16,16 @@
 - wofi
 - grim & slurp & wl-copy
 - bluetui
+- mako
+- [powernotd](https://lib.rs/crates/powernotd)
 
 ## What's this?
-- window notifications? (np. dla okna specjalnego)
 - playerctl?
 - nm-applet?
 - xwaylandvideobridge?
 - hyprpolkitagent?
-- swaync (system notifications)?
 - beebeep?
 - nnn / ranger / superfile / yazi (file manager)?
-- ładniejsze menu programów
 - uwsm?
 - pavucontrol (a jakaś nowoczesna alternatywa TUI?)?
 - nmtui?
@@ -41,7 +40,6 @@
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
 - zamiana wofi na coś innego;
-- zamiana waybar na coś innego (np. zamiast paska, to coś dostępnego w special workspace?; poprzez komendę);
 - zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring;
 - Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?* -> `binds {movefocus_cycles_fullscreen = 0}` -> chodzi o możliwość przełączania między oknami fullscreen;
 - dokończenie ep.9 z info. dot. baterii w Hyprland (?);
@@ -49,12 +47,16 @@
 - kontrolki głośności i jasności ekranu;
 - lista wszystkich aplikacji zainstalowanych?
 - uruchamianie Zed nie działa;
-- dodanie ostrzeżenia o stanie baterii (chyba Hyprspace czy inny plugin dodał mi jakieś notyfikacje);
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
-- problemy w łączeniu poprzez SSH w kitty?
+- problemy w łączeniu poprzez SSH w kitty? https://snoo.habedieeh.re/r/commandline/comments/prenxh/error_opening_terminal_xtermkitty/
 - disable infinite workspaces scroll
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
-- jakaś linia fiolet na dole ekranu i po prawej stronie, hm?
+- jakaś linia fiolet na dole ekranu i po prawej stronie, hm?;
 - poprawienie działania overview;
-- migracja z kitty na foot (+ konfiguracja i kolory i wygląd i skalowanie)
-- ograniczenie maksymalnego dźwięku
+- migracja z kitty na foot (+ konfiguracja i kolory i wygląd i skalowanie; Foot Server i Client potrzebne?);
+- ograniczenie maksymalnego dźwięku;
+- sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
+- zmiana szerokości aktywnego okna komendą + strzałkami?
+- weryfikacja poprawności powernotd i mako wraz z poszukaniem alternatyw (np. skrypt bash i obejmująca, np. poziom 85%, że można wtedy odłączyć) i przerzucenie na ładowanie systemctl?;
+- zabezpieczenie aplikacji, by się nie otwierały wiele razy? (chociaż od tego jest w zasadzie exec-once);
+- zamiana mako na coś wspieranego w 2025 roku?;
