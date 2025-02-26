@@ -33,17 +33,11 @@
 ## Upgrades
 
 ### Next
-- kontrolki głośności i jasności ekranu;
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
-- ograniczenie maksymalnego dźwięku;
-- pokazanie godziny po naciśnięciu klawisza, może przy MOD?
-- wyeksportowanie skali ekranu do osobnej zmiennej?
 - Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?* -> `binds {movefocus_cycles_fullscreen = 0}` -> chodzi o możliwość przełączania między oknami fullscreen;
 - rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
-- poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
 
 ### Other
-- `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box
 - dlaczego mogę instalować aplikacje bez podawania hasła?
 - zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster` (mam już do tego bindy: MOD + SHIFT + STRZAŁKI)
 - manualna instalacja Hyprland (nie z repozytorium COPR)
@@ -63,3 +57,10 @@
 - weryfikacja poprawności powernotd i mako wraz z poszukaniem alternatyw (np. skrypt bash i obejmująca, np. poziom 85%, że można wtedy odłączyć) i przerzucenie na ładowanie systemctl?;
 - zamiana mako na coś wspieranego w 2025 roku? (wbudowane powiadomienia w Hyprland? https://wiki.hyprland.org/Configuring/Using-hyprctl/#notify);
 - szybki split pionowo/poziomo;
+poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
+- ładniejsze wyświetlanie poziomu jasności/audio?
+- lepsze ograniczenie maksymalnego dźwięku;
+
+### Maybe
+- poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
+- `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box

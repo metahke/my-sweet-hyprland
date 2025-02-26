@@ -1,6 +1,7 @@
 # Settings
 
 - Możliwe jest wyłączenie middle-click paste;
+- Kolejność source w pliku hyprland.conf ma znaczenie;
 
 ## hyprpm
 `hyprpm update;
