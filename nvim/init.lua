@@ -1,1 +1,2 @@
-require("mysweetneovim")
+require("config.lazy")
+
