@@ -36,7 +36,6 @@
 weryfikacja powiadomień baterii;
 - bind aplikacji zed nie działa prawidłowo?
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
-- Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?* -> `binds {movefocus_cycles_fullscreen = 0}` -> chodzi o możliwość przełączania między oknami fullscreen;
 
 ### Other
 - dlaczego mogę instalować aplikacje bez podawania hasła?
