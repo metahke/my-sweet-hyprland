@@ -15,7 +15,7 @@
 - btop
 - wofi
 - grim & slurp & wl-copy
-- bluetui
+- bluetui (blueman?)
 - mako
 - [powernotd](https://lib.rs/crates/powernotd)
 
@@ -33,9 +33,10 @@
 ## Upgrades
 
 ### Next
+weryfikacja powiadomień baterii;
+- bind aplikacji zed nie działa prawidłowo?
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
 - Chromium/Gnome oprogramowanie nie działa? -> czemu = *okazuje się, że jeśli nacisnę MOD + strzałki w prawo lub lewo, to na danym workspace są te wszystkie aplikacje; czemu tak?* -> `binds {movefocus_cycles_fullscreen = 0}` -> chodzi o możliwość przełączania między oknami fullscreen;
-- rodzielenie zrzutów ekranu na jakieś skrypty (do sprawdzenia; żeby zapisywały się do pamięci oraz do folderu użytkownika, który zdefiniuje (?)): # bind = $mainMod, V, exec, grim -g "$(slurp)" -f png "$HOME/Dokumenty/Zrzuty ekranu/Zrzut ekranu z $(date +'%Y-%m-%d %H-%M-%S').png" - | wl-copy (?)
 
 ### Other
 - dlaczego mogę instalować aplikacje bez podawania hasła?
@@ -57,9 +58,15 @@
 - weryfikacja poprawności powernotd i mako wraz z poszukaniem alternatyw (np. skrypt bash i obejmująca, np. poziom 85%, że można wtedy odłączyć) i przerzucenie na ładowanie systemctl?;
 - zamiana mako na coś wspieranego w 2025 roku? (wbudowane powiadomienia w Hyprland? https://wiki.hyprland.org/Configuring/Using-hyprctl/#notify);
 - szybki split pionowo/poziomo;
-poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
+- poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
 - ładniejsze wyświetlanie poziomu jasności/audio?
 - lepsze ograniczenie maksymalnego dźwięku;
+- "Failed to obtain authentication"?
+- dodanie skryptu auto-rozłączającego urządzenia wybrane (myszka, klawiatura) i łączące się z nimi po starcie;
+  1. po naciśnięciu kombinacji klawiszy (?) / lub przez skrypt w terminalu;
+  2. usuń urządzenia o podanych adresach MAC;
+  3. wyszukaj je i połącz się z nimi
+- poprawienie komendy tworzenia zrzutów ekranu, np. rozdzielenie jej jako skrypt
 
 ### Maybe
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
