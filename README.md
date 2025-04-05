@@ -33,23 +33,20 @@
 ## Upgrades
 
 ### Next
-weryfikacja powiadomień baterii;
+- weryfikacja powiadomień baterii;
 - bind aplikacji zed nie działa prawidłowo?
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
 
 ### Other
-- dlaczego mogę instalować aplikacje bez podawania hasła?
-- zamiana aktywnego okna z głównym, np. `bindm = $mainMod, mouse:272, layoutmsg swapwithmaster` (mam już do tego bindy: MOD + SHIFT + STRZAŁKI)
 - manualna instalacja Hyprland (nie z repozytorium COPR)
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
 - zamiana wofi na coś innego;
 - zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring;
-- dokończenie ep.9 z info. dot. baterii w Hyprland (?);
 - lista wszystkich aplikacji zainstalowanych?
 - problemy w łączeniu poprzez SSH w kitty? https://snoo.habedieeh.re/r/commandline/comments/prenxh/error_opening_terminal_xtermkitty/
 - disable infinite workspaces scroll
-- jakaś linia fiolet na dole ekranu i po prawej stronie, hm?;
+- jakaś linia fiolet na dole ekranu i po prawej stronie, hm? (błąd Hyprspace);
 - poprawienie działania overview;
 - migracja z kitty na foot (+ konfiguracja i kolory i wygląd i skalowanie; Foot Server i Client potrzebne?);
 - sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
@@ -66,6 +63,9 @@ weryfikacja powiadomień baterii;
   2. usuń urządzenia o podanych adresach MAC;
   3. wyszukaj je i połącz się z nimi
 - poprawienie komendy tworzenia zrzutów ekranu, np. rozdzielenie jej jako skrypt
+- upewnienie się, że Hyprland zarządza baterią laptopa tak dobrze, jak GNOME
+- błędy w skalowaniu, jesli window jest fullscreen i przejdzie się do fullscreen w wideo, np. youtube
+- firewall?
 
 ### Maybe
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
