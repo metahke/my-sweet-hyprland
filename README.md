@@ -53,7 +53,6 @@
 - zmiana szerokości aktywnego okna komendą + strzałkami?
 - weryfikacja poprawności powernotd i mako wraz z poszukaniem alternatyw (np. skrypt bash i obejmująca, np. poziom 85%, że można wtedy odłączyć) i przerzucenie na ładowanie systemctl?;
 - zamiana mako na coś wspieranego w 2025 roku? (wbudowane powiadomienia w Hyprland? https://wiki.hyprland.org/Configuring/Using-hyprctl/#notify);
-- szybki split pionowo/poziomo;
 - poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
 - ładniejsze wyświetlanie poziomu jasności/audio?
 - lepsze ograniczenie maksymalnego dźwięku;
