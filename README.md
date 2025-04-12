@@ -20,25 +20,23 @@
 - [powernotd](https://lib.rs/crates/powernotd)
 
 ## What's this?
-- playerctl?
-- nm-applet?
-- xwaylandvideobridge?
 - hyprpolkitagent?
-- beebeep?
-- nnn / ranger / superfile / yazi (file manager)?
 - uwsm?
-- pavucontrol (a jakaś nowoczesna alternatywa TUI?)?
-- nmtui?
 
 ## Upgrades
 
 ### Next
+- sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
+- dodać dotfiles systemowe, typu .bashrc oraz .profile?
+- poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
+- przetestowanie i używanie terminalowej przeglądarki plików (nnn/ranger/superfile/yazi)
+
+
+### Other
 - weryfikacja powiadomień baterii;
 - bind aplikacji zed nie działa prawidłowo?
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
-
-### Other
-- manualna instalacja Hyprland (nie z repozytorium COPR)
+- znalezienie alternatyw TUI/GUI dla nm-applet, pavucontrol oraz blueman
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
 - zamiana wofi na coś innego;
@@ -49,12 +47,9 @@
 - jakaś linia fiolet na dole ekranu i po prawej stronie, hm? (błąd Hyprspace);
 - poprawienie działania overview;
 - migracja z kitty na foot (+ konfiguracja i kolory i wygląd i skalowanie; Foot Server i Client potrzebne?);
-- sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
 - zmiana szerokości aktywnego okna komendą + strzałkami?
 - weryfikacja poprawności powernotd i mako wraz z poszukaniem alternatyw (np. skrypt bash i obejmująca, np. poziom 85%, że można wtedy odłączyć) i przerzucenie na ładowanie systemctl?;
 - zamiana mako na coś wspieranego w 2025 roku? (wbudowane powiadomienia w Hyprland? https://wiki.hyprland.org/Configuring/Using-hyprctl/#notify);
-- poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
-- ładniejsze wyświetlanie poziomu jasności/audio?
 - lepsze ograniczenie maksymalnego dźwięku;
 - "Failed to obtain authentication"?
 - dodanie skryptu auto-rozłączającego urządzenia wybrane (myszka, klawiatura) i łączące się z nimi po starcie;
@@ -69,3 +64,5 @@
 ### Maybe
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;
 - `bind = $mainMod SHIFT, Q, killactive,` -> add confirmation box
+- manualna instalacja Hyprland (nie z repozytorium COPR)
+- ładniejsze wyświetlanie poziomu jasności/audio?
