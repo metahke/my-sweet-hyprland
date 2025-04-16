@@ -1,0 +1,51 @@
+{
+  "notifications": [
+    {
+      "level": 20,
+      "urgency": "Normal",
+      "title": "Poziom baterii",
+      "message": "{}%"
+    },
+    {
+      "level": 15,
+      "urgency": "Critical",
+      "time_secs": 10000,
+      "title": "Podłącz do ładowarki",
+      "message": "Poziom baterii: {}%"
+    },
+    {
+      "level": 10,
+      "urgency": "Critical",
+      "time_secs": 10000,
+      "title": "Podłącz do ładowarki",
+      "message": "Poziom baterii: {}%"
+    },
+    {
+      "level": 5,
+      "urgency": "Critical",
+      "time_secs": 10000,
+      "title": "Podłącz do ładowarki!",
+      "message": "Poziom baterii: {}%"
+    },
+    {
+      "level": 2,
+      "urgency": "Critical",
+      "time_secs": 10000,
+      "title": "Podłącz do ładowarki!!",
+      "message": "Poziom baterii: {}%"
+    },
+    {
+      "level": 1,
+      "urgency": "Critical",
+      "time_secs": 10000,
+      "title": "Podłącz do ładowarki!!!",
+      "message": "Poziom baterii: {}%"
+    }
+  ],
+  "full_notification": {
+    "urgency": "Low",
+    "enabled": true,
+    "title": "Poziom baterii",
+    "message": "W pełni naładowana: 100%"
+  }
+}
