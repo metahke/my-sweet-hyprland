@@ -6,7 +6,7 @@
 - hyprpaper
 - hyprlock
 - hyprsunset
-- hypridle (OLD VERSION IN REPO: 1.3.4 -> 1.5)
+- hypridle
 - hyprpm
 - Hyprspace
 
@@ -15,7 +15,7 @@
 - btop
 - wofi
 - grim & slurp & wl-copy
-- bluetui (blueman?)
+- bluetui / blueman
 - mako
 - [powernotd](https://lib.rs/crates/powernotd)
 
