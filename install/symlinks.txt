@@ -1,0 +1,7 @@
+zed $HOME/.config/zed
+hypr $HOME/.config/hypr
+wofi $HOME/.config/wofi
+foot $HOME/.config/foot
+mako $HOME/.config/mako
+nvim $HOME/.config/nvim
+powernotd $HOME/.config/powernotd
