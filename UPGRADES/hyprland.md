@@ -23,23 +23,31 @@
 - hyprpolkitagent?
 - uwsm?
 
+## Is Hyprland usable daily?
+
+
+
 ## Upgrades
 
 ### Next
+- weryfikacja powiadomień baterii;
+
+### Other
+- weryfikacja ścieżek do plików i skryptów po dokonaniu reorganizacji folderów
+- wyszukiwanie plików w Wofi;
+- ulepszenie skryptu podłączającego (instalującego) potrzebne pliki z repozytorium
+- dowiedzenie się w jaki sposób zabezpieczyć konfigurację, by hyprland uruchamiał się pomimo jej braku (lub gdyby coś się stało)
 - sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
 - dodać dotfiles systemowe, typu .bashrc oraz .profile?
 - poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
 - przetestowanie i używanie terminalowej przeglądarki plików (nnn/ranger/superfile/yazi)
-
-
-### Other
-- weryfikacja powiadomień baterii;
+- zarządzanie wifi, bluetooth z poziomu Wofi (https://github.com/podobu/wifimenu)
 - bind aplikacji zed nie działa prawidłowo?
 - by workspaces sie usuwaly jesli po przeniesieniu z nich czegoś pozostają puste (jak w Hyprspace)
 - znalezienie alternatyw TUI/GUI dla nm-applet, pavucontrol oraz blueman
 - dodanie komunikatu hyprlock informującego o włączeniu caps/num locków (+ zmiana koloru);
 - zrobienie researchu w kontekście bezpieczeństwa hyprlock #ważne (`bind = $mainMod, L, exec, loginctl lock-session`?); łącznie z komendą hypridle;
-- zamiana wofi na coś innego;
+- zamiana wofi na coś innego (Walker, fuzzel?);
 - zrobienie, by #systemMonitor otwierał się fullscreen tylko na workspace:special:monitoring;
 - lista wszystkich aplikacji zainstalowanych?
 - problemy w łączeniu poprzez SSH w kitty? https://snoo.habedieeh.re/r/commandline/comments/prenxh/error_opening_terminal_xtermkitty/
@@ -60,6 +68,7 @@
 - upewnienie się, że Hyprland zarządza baterią laptopa tak dobrze, jak GNOME
 - błędy w skalowaniu, jesli window jest fullscreen i przejdzie się do fullscreen w wideo, np. youtube
 - firewall?
+- błąd Hyprspace, gdy okno jest fullscreen i się wywoła hyprspace, to przeskakuje
 
 ### Maybe
 - poprawienie skalowania aplikacji X11, by nie były spikselizowane i miały zgodne skalowanie domyślne;

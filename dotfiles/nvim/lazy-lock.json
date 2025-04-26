@@ -1,10 +1,10 @@
 {
-  "fzf-lua": { "branch": "main", "commit": "98fb51f2820ead2f8e3c37a7071d7a113b07e2c1" },
+  "fzf-lua": { "branch": "main", "commit": "a86d00f01fe983f45c0d9c3d14df75557677a2d8" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
-  "neovim-project": { "branch": "main", "commit": "b5a0c5b8a872634a16b428ed66c159bfb9604804" },
+  "neovim-project": { "branch": "main", "commit": "092c1d1c033fd6005a846cb95f2763d83068b94a" },
   "neovim-session-manager": { "branch": "master", "commit": "3409dc920d40bec4c901c0a122a80bee03d6d1e1" },
-  "nvim-lspconfig": { "branch": "master", "commit": "442e077e326ac467daf9cd63e72120fb450a850b" },
-  "nvim-treesitter": { "branch": "master", "commit": "205faba1768a6e4c854f156bc6a21a41b242599c" },
+  "nvim-lspconfig": { "branch": "master", "commit": "185cd59db14a16b9f884c417797a171a5ef5efff" },
+  "nvim-treesitter": { "branch": "master", "commit": "684eeac91ed8e297685a97ef70031d19ac1de25a" },
   "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
   "rose-pine": { "branch": "main", "commit": "96ff3993a67356ee85d1cdab9be652cdc1c5d1ac" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" }
