@@ -15,9 +15,11 @@
 - btop
 - wofi
 - grim & slurp & wl-copy
-- bluetui / blueman
+- blueman (bluetui?)
 - mako
 - [powernotd](https://lib.rs/crates/powernotd)
+- wofi-calc & qalculate
+-
 
 ## What's this?
 - hyprpolkitagent?
@@ -30,11 +32,14 @@
 ## Upgrades
 
 ### Next
-- weryfikacja powiadomień baterii;
+
 
 ### Other
+- przerobienie skryptu instalacyjnego na czytelnego Pythona;
+- dodanie do skryptu instalacyjnego podpinania folderu scripts do $HOME/scripts oraz kopiowania plików desktop;
+- podpiecie wofi-powermenu.sh pod przycisk zasilania
+- weryfikacja powiadomień baterii;
 - weryfikacja ścieżek do plików i skryptów po dokonaniu reorganizacji folderów
-- wyszukiwanie plików w Wofi;
 - ulepszenie skryptu podłączającego (instalującego) potrzebne pliki z repozytorium
 - dowiedzenie się w jaki sposób zabezpieczyć konfigurację, by hyprland uruchamiał się pomimo jej braku (lub gdyby coś się stało)
 - sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
