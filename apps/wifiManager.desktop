@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Menadżer Wi-Fi
+GenericName=Network Connections Editor
+Comment=Open NetworkManager connection editor
+Icon=network-wireless
+TryExec=nm-connection-editor
+Exec=nm-connection-editor
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Settings;
+Keywords=wifi;wireless;network;internet;connection;nm;nmcli;
