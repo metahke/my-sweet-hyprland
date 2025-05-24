@@ -1,3 +1,4 @@
+fish $HOME/.config/fish
 zed $HOME/.config/zed
 hypr $HOME/.config/hypr
 wofi $HOME/.config/wofi
