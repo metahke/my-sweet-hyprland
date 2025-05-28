@@ -12,5 +12,3 @@ styles = ./styles.css
 
 allow_markup=true
 insensitive=true
-no_initial_input=true
-#columns=2
