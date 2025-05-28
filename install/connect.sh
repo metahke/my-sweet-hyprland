@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-#
 # SCRIPT CREATED WITH CHATGPT - BE CAUTIOUS
 # Ensure you thoroughly test the script on a safe environment before using it on important systems.
 # Always backup your files before running automated scripts that modify your system!
 #
 # ./connect.sh --all
 # ./connect.sh --choose hypr nvim foot
-#
-4
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

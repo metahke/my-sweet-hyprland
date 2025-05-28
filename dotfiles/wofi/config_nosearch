@@ -4,7 +4,6 @@
 # https://man.archlinux.org/man/wofi.7.en #
 ###########################################
 
-hide_search=true
 location = center
 
 colors = ./colors
@@ -12,5 +11,3 @@ styles = ./styles.css
 
 allow_markup=true
 insensitive=true
-no_initial_input=true
-#columns=2

@@ -11,30 +11,37 @@
 - Hyprspace
 
 ## Apps
-- foot (kitty?)
+- doas
+- fish
+- foot
 - btop
 - wofi
 - grim & slurp & wl-copy
-- blueman (bluetui?)
+- blueman
+- nm-connection-editor
 - mako
 - [powernotd](https://lib.rs/crates/powernotd)
-- wofi-calc & qalculate
--
+- qalculate
+
+## Scripts-Apps
+- wifiManager.desktop
+- wofiCalc.desktop
 
 ## What's this?
 - hyprpolkitagent?
 - uwsm?
 
 ## Is Hyprland usable daily?
-
-
+->
 
 ## Upgrades
 
 ### Next
-
+- naprawienie wofi-file_search.sh po zmianie na fish
 
 ### Other
+- zmiana sudo na doas
+- naprawienie brzydkiego wyświetlania logowania do systemu po aktualizacji Fedora: np. w oczekiwaniu na zalogowanie wyświetla się prompt hasła luks
 - przerobienie skryptu instalacyjnego na czytelnego Pythona;
 - dodanie do skryptu instalacyjnego podpinania folderu scripts do $HOME/scripts oraz kopiowania plików desktop;
 - podpiecie wofi-powermenu.sh pod przycisk zasilania
@@ -43,7 +50,6 @@
 - ulepszenie skryptu podłączającego (instalującego) potrzebne pliki z repozytorium
 - dowiedzenie się w jaki sposób zabezpieczyć konfigurację, by hyprland uruchamiał się pomimo jej braku (lub gdyby coś się stało)
 - sprawdzić: https://www.youtube.com/watch?v=v8w1i3wAKiw;
-- dodać dotfiles systemowe, typu .bashrc oraz .profile?
 - poprawienie wyglądu aplikacji, np. gnome wyświetla się jasny motyw;
 - przetestowanie i używanie terminalowej przeglądarki plików (nnn/ranger/superfile/yazi)
 - zarządzanie wifi, bluetooth z poziomu Wofi (https://github.com/podobu/wifimenu)

@@ -22,7 +22,7 @@
   "project_panel": {
     "dock": "right"
   },
-  "assistant": {
+  "agent": {
     "version": "2",
     "enabled": false
   },
@@ -31,7 +31,7 @@
   },
   "features": {
     "copilot": false,
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "none"
   },
   "git": {
     "inline_blame": {
