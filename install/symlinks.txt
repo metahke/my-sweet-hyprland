@@ -5,4 +5,5 @@ wofi $HOME/.config/wofi
 foot $HOME/.config/foot
 mako $HOME/.config/mako
 nvim $HOME/.config/nvim
+fuzzel $HOME/.config/fuzzel
 powernotd $HOME/.config/powernotd
