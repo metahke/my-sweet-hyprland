@@ -19,11 +19,11 @@
   },
 
   // delete/hide unnecessary features
+  "disable_ai": true,
   "project_panel": {
     "dock": "right"
   },
   "agent": {
-    "version": "2",
     "enabled": false
   },
   "collaboration_panel": {
